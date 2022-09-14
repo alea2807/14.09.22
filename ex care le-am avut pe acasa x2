@@ -1,0 +1,9 @@
+def creare_lista():
+    lista1=[]
+    n=int(input('nr de elemente: '))
+    for i in range(n):
+        elem=str(input('elementul '+str(i)+' este:'))
+        lista1.append(elem)
+    return lista1
+lista2=creare_lista()
+print(lista2)
